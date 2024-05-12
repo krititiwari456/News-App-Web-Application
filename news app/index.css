@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(12, 51, 210);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.auth-button {
+    padding: 10px 20px;  
+    margin: 0 10px;
+    background-color: #d45810; 
+    color: #fff;
+    width: 80px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+.auth-button:hover {
+    background-color: #bc0909; 
+}
+
+.navbar {  
+    padding-top: 10px;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+}
+.aa:hover{
+    text-decoration: underline;
+}
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding:10px;
+    text-decoration: none;
+}
+
+main{
+    padding-inline: 10px;
+    padding-top: 156px;
+    padding-bottom: 80px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    background-color: #E5E7EB;
+    margin-inline: 5px;
+    height: 150px;
+    width: 99.5%;
+    
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+article:hover {
+    background-color: #ead196;
+    cursor: pointer;
+}
+
+.article-image {
+    height: 90%;
+    width: 13%;
+    margin: 4px;
+    
+    border-radius: 5%;
+    border: 3px solid black;
+}
+
+.article-content {
+    padding: 3px;
+    font-size: 15px;
+    width: 85%;
+}
+.heading{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.heading1{
+    font-size: small;
+    margin-bottom: 2px;
+}
+
+
+.description{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.description1{
+    font-size: small;
+    margin-top: 4px;
+}
+footer {
+    background-color: #0047d5;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.news-link {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li a:active,nav ul li a:hover{
+    background-color: rgb(66, 166, 169);
+    transition: .5s;
+    border-radius: 5px;
+    
+}
+.author-cont{
+    text-align: end;
+    overflow: hidden;
+    margin-bottom: 2px;
+    font-family:'Times New Roman', Times, serif;
+    color:grey;
+    
+}
